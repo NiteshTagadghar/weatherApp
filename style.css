@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background-image: url("images/pexels-kaique-rocha-125510.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 120%;
+}
+
+.card{
+    background: #000000d0;
+    color:white;
+    border-radius: 30px;
+    padding: 2em;
+    margin: 1em;
+    width: 100%;
+    max-width: 450px;
+
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    height: 3.8em;
+    width: 3.8em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background-color: #7c7c7c6b;
+}
+.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 18px;
+    color: black;
+    font-family: inherit;
+    font-size: 120%;
+    width: calc(100% - 100px);
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 0.8rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
